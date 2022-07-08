@@ -1,0 +1,12 @@
+{
+    "makefile.extensionOutputFolder": "./.vscode",
+    "makefile.launchConfigurations": [
+        {
+            "cwd": "/home/bma/Projects/stm32/f1_ssd1306_test/build",
+            "binaryPath": "/home/bma/Projects/stm32/f1_ssd1306_test/build/f1_ssd1306_test.elf",
+            "binaryArgs": []
+        }
+    ],
+    "cortex-debug.armToolchainPath": "/usr/bin",
+    "cortex-debug.openocdPath": "/usr/bin/openocd"
+}
