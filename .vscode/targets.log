@@ -6,7 +6,7 @@ make all --print-data-base --no-builtin-variables --no-builtin-rules --question
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jul 12 21:51:12 2022
+# Make data base, printed on Wed Jul 13 20:52:45 2022
 
 # Variables
 
@@ -71,7 +71,7 @@ OLDPWD = /home/bma
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = /home/bma/.config/Code/CachedData/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9
+VSCODE_CODE_CACHE_PATH = /home/bma/.config/Code/CachedData/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a
 # makefile (from 'Makefile', line 105)
 AS_DEFS = 
 # environment
@@ -113,7 +113,7 @@ ASFLAGS = $(MCU) $(AS_DEFS) $(AS_INCLUDES) $(OPT) -Wall -fdata-sections -ffuncti
 # automatic
 @F = $(notdir $@)
 # environment
-VSCODE_PID = 1092
+VSCODE_PID = 12800
 # environment
 XDG_SESSION_TYPE = tty
 # environment
@@ -129,7 +129,7 @@ CP = $(PREFIX)objcopy
 # environment
 DRAWDEFAULT = /usr/share/opencascade/resources/DrawResources/DrawDefault
 # environment
-SESSION_MANAGER = local/doom:@/tmp/.ICE-unix/493,unix/doom:/tmp/.ICE-unix/493
+SESSION_MANAGER = local/doom:@/tmp/.ICE-unix/502,unix/doom:/tmp/.ICE-unix/502
 # automatic
 *F = $(notdir $*)
 # environment
@@ -141,7 +141,7 @@ DBUS_SESSION_BUS_ADDRESS = unix:path=/run/user/1000/bus
 # automatic
 <D = $(patsubst %/,%,$(dir $<))
 # environment
-VSCODE_NLS_CONFIG = {"locale":"ru","availableLanguages":{"*":"ru"},"_languagePackId":"0c710195abefcb157427091a54303bfc.ru","_translationsConfigFile":"/home/bma/.config/Code/clp/0c710195abefcb157427091a54303bfc.ru/tcf.json","_cacheRoot":"/home/bma/.config/Code/clp/0c710195abefcb157427091a54303bfc.ru","_resolvedLanguagePackCoreLocation":"/home/bma/.config/Code/clp/0c710195abefcb157427091a54303bfc.ru/92d25e35d9bf1a6b16f7d0758f25d48ace11e5b9","_corruptedFile":"/home/bma/.config/Code/clp/0c710195abefcb157427091a54303bfc.ru/corrupted.info","_languagePackSupport":true}
+VSCODE_NLS_CONFIG = {"locale":"ru","availableLanguages":{"*":"ru"},"_languagePackId":"0c710195abefcb157427091a54303bfc.ru","_translationsConfigFile":"/home/bma/.config/Code/clp/0c710195abefcb157427091a54303bfc.ru/tcf.json","_cacheRoot":"/home/bma/.config/Code/clp/0c710195abefcb157427091a54303bfc.ru","_resolvedLanguagePackCoreLocation":"/home/bma/.config/Code/clp/0c710195abefcb157427091a54303bfc.ru/b06ae3b2d2dbfe28bca3134cc6be65935cdfea6a","_corruptedFile":"/home/bma/.config/Code/clp/0c710195abefcb157427091a54303bfc.ru/corrupted.info","_languagePackSupport":true}
 # default
 MAKE_HOST := x86_64-pc-linux-gnu
 # environment
@@ -231,7 +231,7 @@ LDFLAGS = $(MCU) -specs=nano.specs -T$(LDSCRIPT) $(LIBDIR) $(LIBS) -Wl,-Map=$(BU
 # makefile (from 'Makefile', line 101)
 MCU = $(CPU) -mthumb $(FPU) $(FLOAT-ABI)
 # environment
-GIO_LAUNCHED_DESKTOP_FILE_PID = 1074
+GIO_LAUNCHED_DESKTOP_FILE_PID = 12782
 # environment
 _ = /usr/bin/make
 # makefile (from 'Makefile', line 86)
@@ -261,7 +261,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 DRAWHOME = /usr/share/opencascade/resources/DrawResources
 # environment
-VSCODE_IPC_HOOK = /run/user/1000/vscode-5227a44c-1.69.0-main.sock
+VSCODE_IPC_HOOK = /run/user/1000/vscode-5227a44c-1.69.1-main.sock
 # environment
 TERM = xterm-256color
 # environment
@@ -288,7 +288,6 @@ CSF_StandardDefaults = /usr/share/opencascade/resources/StdResource
 DEBUG = 1
 # default
 .FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync check-symlink guile load
- 
 # makefile (from 'Makefile', line 80)
 CC = $(PREFIX)gcc
 # variable set hash-table stats:
@@ -300,13 +299,13 @@ CC = $(PREFIX)gcc
 
 # Directories
 
-# build (device 2052, inode 1728827): 4 files, no impossibilities.
+# build (device 2052, inode 1728827): 14 files, no impossibilities.
 # . (device 2052, inode 1720321): 20 files, no impossibilities.
 # Core/ssd1306 (device 2052, inode 1720341): No files, no impossibilities so far.
 # Core/Src (device 2052, inode 1720324): 6 files, no impossibilities so far.
 # Drivers/STM32F1xx_HAL_Driver/Src (device 2052, inode 1728822): No files, no impossibilities so far.
 
-# 30 files, no impossibilities in 5 directories.
+# 40 files, no impossibilities in 5 directories.
 
 # Implicit Rules
 
@@ -357,7 +356,7 @@ build/stm32f1xx_hal_gpio.o:
 
 build/f1_ssd1306_test.elf: build/main.o build/ssd1306.o build/ssd1306_fonts.o build/ssd1306_tests.o build/stm32f1xx_it.o build/stm32f1xx_hal_msp.o build/stm32f1xx_hal_gpio_ex.o build/stm32f1xx_hal_tim.o build/stm32f1xx_hal_tim_ex.o build/stm32f1xx_hal.o build/stm32f1xx_hal_rcc.o build/stm32f1xx_hal_rcc_ex.o build/stm32f1xx_hal_gpio.o build/stm32f1xx_hal_dma.o build/stm32f1xx_hal_cortex.o build/stm32f1xx_hal_pwr.o build/stm32f1xx_hal_flash.o build/stm32f1xx_hal_flash_ex.o build/stm32f1xx_hal_exti.o build/system_stm32f1xx.o build/gpio.o build/spi.o build/stm32f1xx_hal_spi.o build/startup_stm32f103xb.o Makefile
 #  Implicit rule search has not been done.
-#  File does not exist.
+#  Last modified 2022-07-12 21:51:51.819212572
 #  File has been updated.
 #  Needs to be updated (-q is set).
 # variable set hash-table stats:
@@ -445,7 +444,7 @@ all: build/f1_ssd1306_test.elf build/f1_ssd1306_test.hex build/f1_ssd1306_test.b
 
 build:
 #  Implicit rule search has not been done.
-#  Last modified 2022-07-12 21:51:12.38212891
+#  Last modified 2022-07-12 21:53:15.280096498
 #  File has been updated.
 #  Successfully updated.
 #  recipe to execute (from 'Makefile', line 181):
@@ -573,12 +572,12 @@ vpath %.c Core/Src:Core/ssd1306:Drivers/STM32F1xx_HAL_Driver/Src
 
 # No general ('VPATH' variable) search path.
 
-# strcache buffers: 1 (0) / strings = 70 / storage = 1132 B / avg = 16 B
-# current buf: size = 8162 B / used = 1132 B / count = 70 / avg = 16 B
+# strcache buffers: 1 (0) / strings = 80 / storage = 1304 B / avg = 16 B
+# current buf: size = 8162 B / used = 1304 B / count = 80 / avg = 16 B
 
-# strcache performance: lookups = 106 / hit rate = 33%
+# strcache performance: lookups = 116 / hit rate = 31%
 # hash-table stats:
-# Load=70/8192=1%, Rehash=0, Collisions=0/106=0%
-# Finished Make data base on Tue Jul 12 21:51:12 2022
+# Load=80/8192=1%, Rehash=0, Collisions=0/116=0%
+# Finished Make data base on Wed Jul 13 20:52:45 2022
 
  
